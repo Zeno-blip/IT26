@@ -31,9 +31,6 @@
             <div class="input-box"> 
                 <input type="password" placeholder="Password" name = "password" > 
             </div>
-            <div class="input-box"> 
-                <input type="password" placeholder="Confirm Password" name = "confirmPassword" > 
-            </div>
             
             
             <button type="submit" class="btn" name = "submit">Register</button>

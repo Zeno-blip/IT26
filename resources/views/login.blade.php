@@ -12,13 +12,17 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <form id="loginForm" method = "post">
+    
+    <div class="wrapper">    
+        <form id="loginForm" method = "POST">
             <h1>Login</h1>
+            
             <div class="input-box">
+                @csrf
                 <input type="text" placeholder="Username" name = "email" required>
             </div>
-            <div class="input-box"> 
+            <div class="input-box">
+                @csrf 
                 <input type="password" placeholder="Password" name = "password" required> 
             </div>
             <div class="remember-forgot">

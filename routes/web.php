@@ -26,6 +26,30 @@ Route::get('/register', function () {
 });
 
 Route::post('/register', [HomeController::class, 'register']);
+
 Route::get('/dashboard', function () {
-    return view('register');
+    return view('dashboard');
 });
+
+Route::get('/payroll', function () {
+    return view('payroll');
+});
+
+Route::get('/employee', function () {
+    return view('employee');
+});
+
+Route::get('/add-employee', function () {
+    return view('add-employee');
+});
+Route::get('/audit-log', function () {
+    return view('audit-log');
+});
+Route::get('/applicant', function () {
+    return view('applicant');
+});
+
+Route::post('/logout', [HomeController::class, 'logout']);
+
+Route::post('/login', [HomeController::class, 'login']);
+
