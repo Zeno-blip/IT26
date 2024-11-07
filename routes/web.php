@@ -27,6 +27,12 @@ Route::get('/register', function () {
 
 Route::post('/register', [HomeController::class, 'register']);
 
+Route::get('/job-posting', function () {
+    return view('job-posting');
+});
+Route::get('/job-app', function () {
+    return view('job-app');
+});
 Route::get('/dashboard', function () {
     return view('dashboard');
 });

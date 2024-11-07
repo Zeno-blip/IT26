@@ -43,38 +43,39 @@
             </div>
 
             <ul class="sidebar-list">
-                    <li class="sidebar-list-item">
-                        <span class="material-icons-outlined">dashboard</span>Dashboard
-                    </li>
-                    <li class="sidebar-list-item">
-                    <a href="/payroll">
-                        <span class="material-icons-outlined">paid</span>Payroll
+                <li class="sidebar-list-item">
+                <a href="/dashboard">
+                    <span class="material-icons-outlined">dashboard</span>Dashboard
+                </a>
+                </li>
+                <li class="sidebar-list-item">
+                <a href="/payroll">
+                    <span class="material-icons-outlined">paid</span>Payroll
+                </a>
+                </li>
+                <li class="sidebar-list-item">
+                <a href="/employee">
+                        <span class="material-icons-outlined">groups</span>Employee
+                </a>
+                </li>
+                
+                
+                <li class="sidebar-list-item">
+                <a href="/attendance">
+                    <span class="material-icons-outlined">event</span>Attendance
+                </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="/audit-log">
+                    <span class="material-icons-outlined">fact_check</span>Audit-log
                     </a>
-                    </li>
-                    <li class="sidebar-list-item">
-                    <a href="/employee">
-                            <span class="material-icons-outlined">groups</span>Employee
-                    </a>
-                    </li>
-                    
-                    
-                    <li class="sidebar-list-item">
-                        <span class="material-icons-outlined">event</span>Attendance
-                    </li>
-                    <li class="sidebar-list-item">
-                        <a href="/audit-log">
-                        <span class="material-icons-outlined">fact_check</span>Audit-log
-                        </a>
-                    </li>
-                    <li class="sidebar-list-item">
-                    <a href="/applicant">
-                        <span class="material-icons-outlined">group</span>Applicant
-                    </a>    
-                    </li>
-                    <li class="sidebar-list-item">
-                        <span class="material-icons-outlined">settings</span>Settings
-                    </li>
-            </ul>
+                </li>
+                <li class="sidebar-list-item">
+                <a href="/applicant">
+                    <span class="material-icons-outlined">group</span>Applicant
+                </a>    
+                </li>
+        </ul>
 
         </aside>
 

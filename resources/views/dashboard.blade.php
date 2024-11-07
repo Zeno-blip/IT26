@@ -43,7 +43,9 @@
 
             <ul class="sidebar-list">
                     <li class="sidebar-list-item">
+                    <a href="/dashboard">
                         <span class="material-icons-outlined">dashboard</span>Dashboard
+                    </a>
                     </li>
                     <li class="sidebar-list-item">
                     <a href="/payroll">
@@ -69,10 +71,7 @@
                     <a href="/applicant">
                         <span class="material-icons-outlined">group</span>Applicant
                     </a>    
-                    </li>
-                    <li class="sidebar-list-item">
-                        <span class="material-icons-outlined">settings</span>Settings
-                    </li>
+                    
             </ul>
 
         </aside>

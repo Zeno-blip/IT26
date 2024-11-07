@@ -21,6 +21,8 @@ class HomeController extends Controller
         return redirect('/dashboard');
     }
     
+    
+
     public function logout(){
         auth()->logout();
         return redirect('/login');
