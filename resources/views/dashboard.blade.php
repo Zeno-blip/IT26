@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
-    <link rel="stylesheet" href="{{ asset('css/style1.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style2.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 </head>
@@ -36,44 +36,49 @@
         <aside id="sidebar">
 
             <div class="sidebar-title">
+                <a href="/dashboard">
                 <div class="sidebar-brand">
                     <img src="Images/hive.png" alt="Human Hive Logo" class="sidebar-image" />
                 </div>
+            </a>
             </div>
 
             <ul class="sidebar-list">
-                    <li class="sidebar-list-item">
-                    <a href="/dashboard">
-                        <span class="material-icons-outlined">dashboard</span>Dashboard
+                <li class="sidebar-list-item">
+                <a href="/dashboard">
+                    <span class="material-icons-outlined">dashboard</span>Dashboard
+                </a>
+                </li>
+                <li class="sidebar-list-item">
+                <a href="/payroll">
+                    <span class="material-icons-outlined">paid</span>Payroll
+                </a>
+                </li>
+                <li class="sidebar-list-item">
+                <a href="/employee">
+                        <span class="material-icons-outlined">groups</span>Employee
+                </a>
+                </li>
+                
+                
+                <li class="sidebar-list-item">
+                <a href="/attendance">
+                    <span class="material-icons-outlined">event</span>Attendance
+                </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="/audit-log">
+                    <span class="material-icons-outlined">fact_check</span>Audit-log
                     </a>
-                    </li>
-                    <li class="sidebar-list-item">
-                    <a href="/payroll">
-                        <span class="material-icons-outlined">paid</span>Payroll
-                    </a>
-                    </li>
-                    <li class="sidebar-list-item">
-                    <a href="/employee">
-                            <span class="material-icons-outlined">groups</span>Employee
-                    </a>
-                    </li>
-                    
-                    
-                    <li class="sidebar-list-item">
-                        <span class="material-icons-outlined">event</span>Attendance
-                    </li>
-                    <li class="sidebar-list-item">
-                        <a href="/audit-log">
-                        <span class="material-icons-outlined">fact_check</span>Audit-log
-                        </a>
-                    </li>
-                    <li class="sidebar-list-item">
-                    <a href="/applicant">
-                        <span class="material-icons-outlined">group</span>Applicant
-                    </a>    
-                    
-            </ul>
-
+                </li>
+                <li class="sidebar-list-item">
+                <a href="/applicant">
+                    <span class="material-icons-outlined">group</span>Applicant
+                </a>    
+                </li>
+                
+        </ul>
+        
         </aside>
 
 

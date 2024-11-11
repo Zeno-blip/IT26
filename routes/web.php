@@ -46,13 +46,20 @@ Route::get('/employee', function () {
 });
 
 Route::get('/add-employee', function () {
-    return view('add-employee');
+    return view('add-employee'); 
 });
+Route::get('/employee-archive', function () {
+    return view('employee-archive');
+});
+
 Route::get('/audit-log', function () {
     return view('audit-log');
 });
 Route::get('/applicant', function () {
     return view('applicant');
+});
+Route::get('/applicant-archive', function () {
+    return view('applicant-archive');
 });
 
 Route::post('/logout', [HomeController::class, 'logout']);

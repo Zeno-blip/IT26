@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Applicants</title>
-    <link rel="stylesheet" href="{{ asset('css/style1.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style2.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 </head>
@@ -36,9 +36,11 @@
         <aside id="sidebar">
 
             <div class="sidebar-title">
+                <a href="/dashboard">
                 <div class="sidebar-brand">
                     <img src="Images/hive.png" alt="Human Hive Logo" class="sidebar-image" />
                 </div>
+            </a>
             </div>
 
             <ul class="sidebar-list">
@@ -104,18 +106,10 @@
                             <td>Male</td>
                             <td>30</td>
                             <td>IT</td>
-                            <td>
+                            <td> 
+                                <a href="/applicant-archive">
                                 <button class="delete-button">Archive</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Jane Smith</td>
-                            <td>(098) 765-4321</td>
-                            <td>Female</td>
-                            <td>28</td>
-                            <td>Marketing</td>
-                            <td>    
-                                <button class="delete-button">Archive</button>
+                                </a>
                             </td>
                         </tr>
                         <!-- Add more applicant rows as needed -->

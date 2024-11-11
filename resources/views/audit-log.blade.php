@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audit Log</title>
-    <link rel="stylesheet" href="{{ asset('css/style1.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style2.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
 </head>
@@ -34,9 +34,11 @@
         <aside id="sidebar">
 
             <div class="sidebar-title">
+                <a href="/dashboard">
                 <div class="sidebar-brand">
                     <img src="Images/hive.png" alt="Human Hive Logo" class="sidebar-image" />
                 </div>
+            </a>
             </div>
 
             <ul class="sidebar-list">

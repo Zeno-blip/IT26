@@ -19,7 +19,7 @@
             <li><a href="#job-listings">Job Listings</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#login" class="login-btn">Login</a></li>
+            <li><a href="/login" class="login-btn">Login</a></li>
         </ul>
     </nav>
 
